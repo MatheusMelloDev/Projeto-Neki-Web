@@ -1,16 +1,15 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom';
-import Login from './screens/login';
+import AppRoutes from '../src/routes/AppRoutes'
 import './App.css'
 
 function App() {
 
 
   return (
-  <BrowserRouter>
-    <Login />
-    </BrowserRouter>
-  )
+<>
+<AppRoutes />
+</>
+  );
 }
 
-export default App
+export default App;
